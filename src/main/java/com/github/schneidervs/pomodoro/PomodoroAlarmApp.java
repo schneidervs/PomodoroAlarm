@@ -56,7 +56,6 @@ public class PomodoroAlarmApp extends Application {
 
         useRing.setSelected(true);
 
-        // Взаимоисключающие чекбоксы
         useRing.setOnAction(e -> {
             if (useRing.isSelected()) useSystemRing.setSelected(false);
         });
